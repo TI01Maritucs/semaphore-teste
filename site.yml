@@ -1,6 +1,5 @@
 ---
 - hosts: my_servers
-  remote_user: root
   become: true
   tasks:
     - name: Print OS info
