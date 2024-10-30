@@ -1,0 +1,7 @@
+---
+- name: Verificar conectividade com servidores
+  hosts: windows
+  gather_facts: no
+  tasks:
+    - name: Realizar ping nos servidores
+      ansible.builtin.ping:
